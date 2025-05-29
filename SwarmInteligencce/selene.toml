@@ -1,0 +1,15 @@
+std = "roblox"
+
+Instance.new:
+    args:
+        type: string
+        required: true
+        type: Instance
+        required: false
+
+[lints]
+unused_variable = "allow"
+
+[tools]
+rojo = "rojo-rbx/rojo@7.2.1"
+# rojo = "rojo-rbx/rojo@6.2.0"
